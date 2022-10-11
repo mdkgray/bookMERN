@@ -8,6 +8,7 @@ export const getMe = (token) => {
   });
 };
 
+// create a user on signup 
 export const createUser = (userData) => {
   return fetch('/api/users', {
     method: 'POST',
@@ -18,6 +19,7 @@ export const createUser = (userData) => {
   });
 };
 
+// user login 
 export const loginUser = (userData) => {
   return fetch('/api/users/login', {
     method: 'POST',

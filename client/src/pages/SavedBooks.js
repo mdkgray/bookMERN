@@ -9,8 +9,8 @@ import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_ME} from '../utils/queries';
 
 const SavedBooks = () => {
-  const { loading, data } = useQuery(GET_ME);
-  const [removeBook] = useMutation(REMOVE_BOOK);
+  const { loading, data } = useQuery(GET_ME); // use GET_ME query 
+  const [removeBook] = useMutation(REMOVE_BOOK); // use REMOVE_BOOK mutation 
 
   const userData = data?.me || {};
 
