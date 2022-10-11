@@ -34,7 +34,7 @@ The application will be installed with the following command:
 
 `npm install`
 
-The application will be started with the following command: 
+To run the server and client folder concurrently, use the following command: 
 
 `npm run develop`
 
